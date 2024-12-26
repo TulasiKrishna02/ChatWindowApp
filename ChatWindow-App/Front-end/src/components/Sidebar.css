@@ -1,0 +1,31 @@
+/* Sidebar.css */
+.sidebar {
+    position: sticky;  /* Sidebar becomes sticky */
+    top: 0;             /* Sticks to the top of the page when scrolling */
+    width: 250px;       /* Fixed width for sidebar */
+    background-color: #27AE60;
+    color: white;
+    height: 100vh;      /* Full height */
+    padding-top: 20px;  /* Padding for content inside */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);  /* Optional shadow effect */
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 15px;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #575757;
+  }
+  
